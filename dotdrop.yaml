@@ -21,7 +21,6 @@ profiles:
       - d_karabiner
       - d_lazygit
       - d_neofetch
-      - d_qbittorrent
       - d_skhd
       - d_spotify_tui
       - d_yabai
@@ -95,10 +94,6 @@ dotfiles:
   d_neofetch:
     dst: ~/.config/neofetch
     src: .config/neofetch
-
-  d_qbittorrent:
-    dst: ~/.config/qBittorrent
-    src: .config/qBittorrent
 
   d_skhd:
     dst: ~/.config/skhd/skhdrc
